@@ -8,7 +8,7 @@ import Foundation
 import SwiftUI
 
 public struct BannerImage{
-    var image: String
+    public var image: String
     var height: CGFloat = 200
     var width: CGFloat = 0
     var paddingTop: CGFloat = 10
