@@ -7,7 +7,7 @@
 import Foundation
 import SwiftUI
 
-public struct BannerImage {
+public struct BannerImage : View {
     public var image: String
     public var height: CGFloat = 200
     public var width: CGFloat = 0
@@ -34,5 +34,4 @@ public struct BannerImage {
             .padding(.top, paddingTop)
             .clipped()
     }
-    
 }
