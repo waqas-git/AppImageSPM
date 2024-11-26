@@ -8,12 +8,12 @@ import Foundation
 import SwiftUI
 
 public struct BannerImage{
-    public var image: String = "full-body-workout"
-    var height: CGFloat = 200
-    var width: CGFloat = 0
-    var paddingTop: CGFloat = 10
-    var cornerRadius: CGFloat = 25
-    var padding: CGFloat = 0
+    public var image: String
+    public var height: CGFloat = 200
+    public var width: CGFloat = 0
+    public var paddingTop: CGFloat = 10
+    public var cornerRadius: CGFloat = 25
+    public var padding: CGFloat = 0
     public var body: some View {
         Image(image)
             .resizable()
