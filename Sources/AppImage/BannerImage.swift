@@ -34,4 +34,5 @@ public struct BannerImage {
             .padding(.top, paddingTop)
             .clipped()
     }
+    
 }
